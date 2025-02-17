@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define G 6.67430e-11 // ค่าคงที่แรงโน้มถ่วงสากล (m^3 kg^-1 s^-2)
+#define G 6.67430e-11  (m^3 kg^-1 s^-2)
 
 typedef struct {
     char name[20];
@@ -13,7 +13,6 @@ double gravitational_force(double m1, double m2, double r) {
 }
 
 int main() {
-    // กำหนดค่าของดาวเคราะห์บางดวงในระบบสุริยะ
     Planet planets[] = {
         {"Mercury", 3.3011e23, 5.791e10},
         {"Venus", 4.8675e24, 1.082e11},
